@@ -6,7 +6,6 @@
  */
 require('./layer.css');
 
-var win = window;
 var doc = document,
   query = 'querySelectorAll',
   claname = 'getElementsByClassName',
@@ -193,7 +192,7 @@ Layer.prototype.action = function(config, elem) {
   config.end && (ready.end[that.index] = config.end);
 };
 
-win.layer = {
+var layer = {
   v: '2.0',
   index: index,
 
