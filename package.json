@@ -1,0 +1,32 @@
+{
+  "name": "layer-mobile",
+  "version": "2.0.0",
+  "description": "UMD build for layer",
+  "main": "dist/layer.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "start": "webpack --watch"
+  },
+  "keywords": ["layer", "layer-mobile"],
+  "author": "kokororin",
+  "license": "LGPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokororin/layer-mobile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kokororin/layer-mobile/issues"
+  },
+  "homepage": "https://github.com/kokororin/layer-mobile#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5"
+  },
+  "files": [
+    "dist"
+  ]
+}
